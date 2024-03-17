@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="media/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Сапёр</title>
+</head>
+
+<body>
+    <div class="main_container" bacground="#fff">
+        <div class="info_game">
+            <div class="difficulty_game">
+                <input type="range" id="difficulty" min="0" max="2" value="0" class="range_difficulty">
+                <label class="range_difficulty_name" for="difficulty">Сложность</label>
+            </div>
+            <h1 class="timer" id="timer">00:00</h1>
+            <input type="button" id="new_game" value="Новая игра" class="button_new_game">
+        </div>
+        <div class="field_game" id="pole_game"></div>
+        <div class="win_or_lose" id="win_or_lose"></div>
+    </div>
+    <script src="media/js/main.js"></script>
+</body>
+
+</html>
